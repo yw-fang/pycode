@@ -1,16 +1,3 @@
 language: python
 
-python:
-  - 3.6
-
-install:
-  - pip install markdown
-
-script: testme.py
-
-os:
-  - osx
-
-branches:
-  only:
-    - master
+script: true

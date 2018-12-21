@@ -8,4 +8,7 @@ setup(name='pycode',
       author_email='fyuewen@gmail.com',
       license='MIT',
       packages=['pycode'],
+      install_requires=[
+         'markdown', 
+          ],
       zip_safe=False)

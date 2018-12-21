@@ -8,6 +8,12 @@ and then install it by 'pip install .'.
 You cannot install this repo. py 'pip install pycode' because
 I do not register and publish it on PyPI.
 
+Dependencies:
+You do not need install the following codes by yourselves,
+when installing this pycode, these will be installed or updated
+automatically in your python environment.
+
+- Markdown
 
 References:
 

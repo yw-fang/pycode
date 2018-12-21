@@ -2,6 +2,11 @@
 
 This repo. is just my playground to package the python code.
 
+To install this repo., please firstly clone it,
+and then install it by 'pip install .'.
+
+You cannot install this repo. py 'pip install pycode' because
+I do not register and publish it on PyPI.
 
 
 References:

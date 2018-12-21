@@ -11,7 +11,5 @@ I do not register and publish it on PyPI.
 
 References:
 
-1.
-
-[python-packaging](https://github.com/storborg/python-packaging/blob/master/minimal.rst): it shows the steps how to package your python code.
+- [python-packaging](https://github.com/storborg/python-packaging/blob/master/minimal.rst): it shows the steps how to package your python code.
 

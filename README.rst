@@ -1,6 +1,8 @@
 *************************************************************
 Pycode: a tutorial example to package your python code
 *************************************************************
+.. image:: https://travis-ci.com/yw-fang/pycode.svg?branch=master
+    :target: https://travis-ci.com/yw-fang/pycode
 
 Introduction
 ################

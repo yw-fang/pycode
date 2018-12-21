@@ -20,11 +20,18 @@ You do not need install the following codes by yourselves,
 when installing this pycode, these will be installed or updated
 automatically in your python environment.
 
-- Markdown
+- Markdown_
+
+  .. _Markdown: https://github.com/Python-Markdown/markdown
+
 
 References
 ################
 
-- [python-packaging](https://github.com/storborg/python-packaging/blob/master/minimal.rst): it shows the steps how to package your python code.
+- Python-packaging_: it shows the steps how to package your python code
+  
+- restview_: A viewer for ReStructuredText documents that renders them on the fly.
 
-- [restview](https://github.com/mgedmin/restview): A viewer for ReStructuredText documents that renders them on the fly.
+
+.. _Python-packaging: https://github.com/yw-fang/pycode
+.. _restview: https://github.com/mgedmin/restview

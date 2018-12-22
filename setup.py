@@ -16,6 +16,7 @@ setup(name='pyplayground',
       version='4.0',
       description='A repo for testing the source code magnagement',
       long_description=long_description,
+      long_description_content_type='text/x-rst',
       classifiers=[
           'Development Status :: v4.0',
           'License:: OSI Approved :: MIT License',

@@ -1,4 +1,11 @@
 from setuptools import setup
+import io
+import os
+
+here = os.path.dirname(__file__)
+readme_path = os.path.join(here, 'README.rst')
+with io.open(readme_path, encoding='utf-8') as readme_file:
+    long_description = readme_file.read()
 
 def readme():
     with open('README.rst') as f:
@@ -8,7 +15,8 @@ def readme():
 setup(name='pyplayground',
       version='4.0',
       description='A repo for testing the source code magnagement',
-      long_description=readme(),
+      long_description=long_description,
+      Description-Content-Type: text/x-rst; charset=UTF-8,
       classifiers=[
           'Development Status :: v4.0',
           'License:: OSI Approved :: MIT License',

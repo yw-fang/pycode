@@ -6,11 +6,11 @@ def readme():
     
 
 setup(name='pycode',
-      version='3.0',
+      version='4.0',
       description='A repo for testing the source code magnagement',
       long_description=readme(),
       classifiers=[
-          'Development Status :: v3.0',
+          'Development Status :: v4.0',
           'License:: OSI Approved :: MIT License',
           'Programming Language :: Python :: 3',
           'Topic :: Pthon package',

@@ -1,13 +1,13 @@
 #!/usr/bin/env python
-import pycode
+import pyplayground
 
-words = pycode.greetings()
+words = pyplayground.greetings()
 askyou = '\n How are you?'
 print(words+askyou)
 
 """
 To use this script:
-Firstly, install this pycode;
+Firstly, install this pyplayground;
 Secondly, just run 'print_greetings.py' in any terminal supporting python 3.
 
 Note 1:
@@ -16,7 +16,7 @@ we can declare the script in setup() like this:
 
 setup(
     ...
-    scripts=['bin/funniest-joke'],
+    scripts=['scripts/funniest-joke'],
     ...
 )
 

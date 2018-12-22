@@ -1,6 +1,6 @@
 from unittest import TestCase
-import pycode
-from pycode.command_line import main
+import pyplayground
+from pyplayground.command_line import main
 # The testme.py file is my first test file.
 # Although it’s overkill for now, we’ll use a
 # unittest.TestCase subclass to provide infrastructure for later development.
@@ -15,7 +15,7 @@ $ nosetests
 
 class TestPlaygroud(TestCase):
     def test_is_string(self):
-        mystrings = pycode.greetings()
+        mystrings = pyplayground.greetings()
         self.assertTrue(isinstance(mystrings, str))
         # self.assertTrue(isinstance(mystrings, basestring)) # for python 2.7
 

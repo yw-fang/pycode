@@ -10,4 +10,4 @@
 
 # Python 3 bytecode compiled and ready to be executed
 # See ref: https://stackoverflow.com/questions/16869024/what-is-pycache
-/pycode/__pycache__
+/pyplayground/__pycache__

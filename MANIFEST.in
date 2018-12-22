@@ -13,4 +13,4 @@ include requirements.txt
 
 
 # added by check_manifest.py
-recursive-include pycode *.py
+recursive-include pyplayground *.py

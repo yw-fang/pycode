@@ -5,7 +5,7 @@ def readme():
         return(f.read())
     
 
-setup(name='pycode',
+setup(name='pyplayground',
       version='4.0',
       description='A repo for testing the source code magnagement',
       long_description=readme(),
@@ -16,19 +16,19 @@ setup(name='pycode',
           'Topic :: Pthon package',
           ],
       keywords='python code package tutorial',
-      url='https://github.com/yw-fang/pycode',
+      url='https://github.com/yw-fang/pyplayground',
       author='Yue-Wen FANG',
       author_email='fyuewen@gmail.com',
       license='MIT',
-      packages=['pycode'],
+      packages=['pyplayground'],
       install_requires=[
          'markdown', 
           ],
       test_suite='nose.collector',
       tests_require=['nose'],
-      scripts=['bin/print_greetings.py'],
+      scripts=['scripts/print_greetings.py'],
       entry_points = {
-          'console_scripts': ['print_greetings_entry=pycode.command_line:main'],
+          'console_scripts': ['print_greetings_entry=pyplayground.command_line:main'],
       },
       include_package_data=True,
       zip_safe=False)

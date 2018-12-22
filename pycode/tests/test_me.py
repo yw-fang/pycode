@@ -34,4 +34,16 @@ setup(
 To run this tests, we can do by:
 
 $ python setup.py test
+
+We can also update the .travis.yml so that the travis CI will examine the unit test
+
+add the following to the .travis.yml, pip install -r requirements.txt is used for
+installation of the markdown and nose modules.
+install:
+  - pip install -r requirements.txt
+# command to run tests
+script:
+      - pytest
+
+Note that, the test scripts must begin with test_ like this current file named 'test_me.py'
 """

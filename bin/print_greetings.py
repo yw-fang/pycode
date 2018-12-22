@@ -6,6 +6,10 @@ askyou = '\n How are you?'
 print(words+askyou)
 
 """
+To use this script:
+Firstly, install this pycode;
+Secondly, just run 'print_greetings.py' in any terminal supporting python 3.
+
 Note 1:
 
 we can declare the script in setup() like this:

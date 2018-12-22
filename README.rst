@@ -14,7 +14,7 @@ and then install it by 'pip install .' or 'python setup.py
 install' or 'pip install pyplayground'
 
 .. You cannot install this repo. py 'pip install pyplayground' because
-I do not register and publish it on PyPI.
+  I do not register and publish it on PyPI.
 
 Dependencies
 ################
@@ -37,4 +37,5 @@ References
 
 
 .. _Python-packaging: https://github.com/yw-fang/pyplayground
+
 .. _restview: https://github.com/mgedmin/restview

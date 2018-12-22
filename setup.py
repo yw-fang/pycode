@@ -27,6 +27,9 @@ setup(name='pycode',
       test_suite='nose.collector',
       tests_require=['nose'],
       scripts=['bin/print_greetings.py'],
+      entry_points = {
+          'console_scripts': ['print_greetings_entry=pycode.command_line:main'],
+      },
       include_package_data=True,
       zip_safe=False)
 

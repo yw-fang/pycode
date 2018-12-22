@@ -18,7 +18,7 @@ setup(name='pyplayground',
       long_description=long_description,
       long_description_content_type='text/x-rst',
       classifiers=[
-          'Development Status :: 4 - Alpha',
+          # 'Development Status :: 4 - Alpha',
           'License:: OSI Approved :: MIT License',
           'Programming Language :: Python :: 3',
           'Topic :: Pthon package',

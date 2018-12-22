@@ -20,7 +20,7 @@ setup(
     
 In this way, we can only maintain the requirements.txt file. However,
 for the time-being, I think maintaining these two files is better because
-some times the package for testing in the requirements.txt are actually not
+some times the packages for testing in the requirements.txt are actually not
 necessary for installation of the main code.   
     
 [Reference](https://www.reddit.com/r/Python/comments/3uzl2a/setuppy_requirementstxt_or_a_combination/)

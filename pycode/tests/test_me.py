@@ -1,5 +1,6 @@
 from unittest import TestCase
 import pycode
+from pycode.command_line import main
 # The testme.py file is my first test file.
 # Although it’s overkill for now, we’ll use a
 # unittest.TestCase subclass to provide infrastructure for later development.
@@ -17,6 +18,10 @@ class TestPlaygroud(TestCase):
         mystrings = pycode.greetings()
         self.assertTrue(isinstance(mystrings, str))
         # self.assertTrue(isinstance(mystrings, basestring)) # for python 2.7
+
+class TestConsole(TestCase):
+    def test_basic(self):
+        main()
 
 
 """

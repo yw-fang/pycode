@@ -26,6 +26,7 @@ setup(name='pycode',
           ],
       test_suite='nose.collector',
       tests_require=['nose'],
+      scripts=['bin/print_greetings.py'],
       include_package_data=True,
       zip_safe=False)
 

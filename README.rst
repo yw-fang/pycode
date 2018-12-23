@@ -13,6 +13,10 @@ To install this repo., please firstly clone it,
 and then install it by 'pip install .' or 'python setup.py
 install' or 'pip install pyplayground'
 
+I published this code on test-PyPI, but not on PyPI, hence we can
+also install this code by
+"pip install --index-url https://test.pypi.org/simple/ pyplayground"
+
 .. You cannot install this repo. py 'pip install pyplayground' because
   I do not register and publish it on PyPI.
 

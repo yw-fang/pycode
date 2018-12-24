@@ -1,5 +1,7 @@
 # IMPORTANT NOTES
 
+## requirements.txt versus setup.py
+
 You may find that requirements.txt looks duplicated to install_requires in setup.py.
 However, as far as I know (I google it!), they have different functionalities.
 If we publish the code on PyPI, then only the install_requires in the setup.py will
@@ -24,3 +26,46 @@ some times the packages for testing in the requirements.txt are actually not
 necessary for installation of the main code.   
     
 [Reference](https://www.reddit.com/r/Python/comments/3uzl2a/setuppy_requirementstxt_or_a_combination/)
+
+
+## Publish code on PyPI or test PyPI
+
+Install twine:
+
+$ pip install twine
+
+Build the package:
+
+$ python setup.py clean sdist
+
+Upload:
+
+$ twine upload dist/*
+The tool will ask you for the username and password.
+If you have a file $HOME/.pypirc, it will not ask you
+for the username and password again.
+
+This is my .pypirc:
+
+[distutils]
+index-servers =
+    pypi
+    testpypi
+
+[pypi]
+repository: https://upload.pypi.org/legacy/
+username: yw-fang
+password: the-password
+username != email
+
+[testpypi]
+repository: https://test.pypi.org/legacy/
+username: yw-fang
+password: the-password
+username != email
+
+twine also lets you provide the credentials in environment variables:
+
+$ TWINE_USERNAME=me TWINE_PASSWORD=passwd twine upload dist/*
+
+[Reference](https://stackoverflow.com/questions/49787860/not-able-to-upload-package-in-https-upload-pypi-org-legacy)

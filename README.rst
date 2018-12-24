@@ -39,6 +39,8 @@ References
   
 - restview_: A viewer for ReStructuredText documents that renders them on the fly.
 
+- Python packaging user guide: https://packaging.python.org/
+
 
 .. _Python-packaging: https://github.com/yw-fang/pyplayground
 

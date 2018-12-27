@@ -39,9 +39,13 @@ References
   
 - restview_: A viewer for ReStructuredText documents that renders them on the fly.
 
-- Python packaging user guide: https://packaging.python.org/
+- `How to Publish Your Package on PyPI <https://blog.jetbrains.com/pycharm/2017/05/how-to-publish-your-package-on-pypi/>`_.
+
+- Semantic-Versioning_: How to increase the version number of your code
 
 
-.. _Python-packaging: https://github.com/yw-fang/pyplayground
+.. _Python-packaging: https://packaging.python.org/
 
 .. _restview: https://github.com/mgedmin/restview
+
+.. _Semantic-Versioning: https://semver.org/

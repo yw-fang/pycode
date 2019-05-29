@@ -44,7 +44,7 @@ References
 - Semantic-Versioning_: How to increase the version number of your code
 
 
-.. _Python-packaging: https://packaging.python.org/
+.. _Python-packaging: https://python-packaging.readthedocs.io/en/latest/
 
 .. _restview: https://github.com/mgedmin/restview
 
